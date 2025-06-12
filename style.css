@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color:aliceblue
+}
+
+*{
+    margin:0 ;
+    padding:0;
+}
+
+nav{
+    fontfamily:"Inter", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
