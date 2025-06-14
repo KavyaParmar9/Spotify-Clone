@@ -10,16 +10,16 @@ let masterSongName=document.getElementById('masterSongName');
 let songItems=Array.from(document.getElementsByClassName('songItem'));
 
 let songs=[
-    {songName:"Let me Love You",filepath:"songs/1.mp3", coverPath:"covers/10.jpg"},
-    {songName:"Life Goes On",filepath:"songs/2.mp3", coverPath:"covers/8.jpg"},
-    {songName:"Pump It",filepath:"songs/3.mp3", coverPath:"covers/7.jpg"},
-    {songName:"Senorita",filepath:"songs/4.mp3", coverPath:"covers/6.jpg"},
-    {songName:"In the Mist",filepath:"songs/5.mp3", coverPath:"covers/5.jpg"},
-    {songName:"Me & Devil",filepath:"songs/6.mp3", coverPath:"covers/4.jpg"},
-    {songName:"Dolittle",filepath:"songs/7.mp3", coverPath:"covers/3.jpg"},
-    {songName:"Baby",filepath:"songs/8.mp3", coverPath:"covers/2.jpg"},
-    {songName:"I'm still standing",filepath:"songs/9.mp3", coverPath:"covers/1.jpg"},
-    {songName:"I Don't Care",filepath:"songs/10.mp3", coverPath:"covers/9.jpg"},
+    {songName:"Let me Love You",filepath:"1.mp3", coverPath:"10.jpg"},
+    {songName:"Life Goes On",filepath:"2.mp3", coverPath:"8.jpg"},
+    {songName:"Pump It",filepath:"3.mp3", coverPath:"7.jpg"},
+    {songName:"Senorita",filepath:"4.mp3", coverPath:"6.jpg"},
+    {songName:"In the Mist",filepath:"5.mp3", coverPath:"5.jpg"},
+    {songName:"Me & Devil",filepath:"6.mp3", coverPath:"4.jpg"},
+    {songName:"Dolittle",filepath:"7.mp3", coverPath:"3.jpg"},
+    {songName:"Baby",filepath:"8.mp3", coverPath:"2.jpg"},
+    {songName:"I'm still standing",filepath:"9.mp3", coverPath:"1.jpg"},
+    {songName:"I Don't Care",filepath:"10.mp3", coverPath:"9.jpg"},
 ]
 
 //audioElement.play();
