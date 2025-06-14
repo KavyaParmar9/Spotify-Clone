@@ -1,80 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color:aliceblue
+    background-color: rgb(219, 201, 177);
 }
 
 *{
-    margin:0 ;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 nav{
-    font-family:"Inter", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 nav ul{
     display: flex;
     align-items: center;
     list-style-type: none;
-    height: 65px;
+    height: 75px;
     background-color: black;
-    color :bisque
+    color: rgb(163, 197, 237);
+    padding-top: 0%;
 }
+
 nav ul li{
-    padding : 0 12px;
+    padding: 0 12px;
 }
 .brand img{
     width: 44px;
     padding: 0 8px;
 }
 
-.brand{
+.brand {
     display: flex;
     align-items: center;
     font-weight: bolder;
-    font-size: 1.3 rem;
+    font-size: 1.3rem;
 }
 
 .container{
-    min-height: 70vh;
-    background-color: rgb(162, 202, 189);
-    color:rgb(238, 255, 0);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    margin: 23px auto;
-    width: 70%;
-    border-radius: 12px;
-    padding: 34px;
-    background-image: url('bg.jpg');
-    background-size: 100% 100%;
+    min-height: 72vh;
+    background-color: rgb(192, 202, 164);
+    color: rgb(158, 207, 193);
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bg.jpg');
 }
 
 .bottom{
-    position:sticky;
-    height:100px;
-    background-color: black;
-    color:aqua;
+    position: sticky;
     bottom: 0;
-    display:flex;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
 }
-
 
 .icons{
-    margin-top: 12px;
+    margin-top: 14px; 
+    color:aquamarine;
+    size: 30px;
 }
-
 .icons i{
     cursor: pointer;
 }
 
-
 #myProgressBar{
-    width: 80vw;
+    width: 80vw; 
     cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
 }
 
 .songItem{
@@ -97,9 +101,25 @@ nav ul li{
 
 .timestamp{
     margin: 0 23px;
-
 }
 
 .timestamp i{
     cursor: pointer;
 }
+
+.songInfo{
+    position: relative;
+    color:blanchedalmond;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
